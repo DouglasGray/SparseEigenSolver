@@ -120,7 +120,7 @@ void eigs::error_string(int err, const char *fct)
 {
     try
     {
-        if (std::strcmp(fct, "dnaupd") == 0)
+        if (strcmp(fct, "dnaupd") == 0)
         {
             std::cout << "eigs::error_string (dnaupd): ";
             switch (err)
@@ -174,7 +174,7 @@ void eigs::error_string(int err, const char *fct)
                     throw 0;
             }
         }
-        else if (std::strcmp(fct, "dneupd") ==0)
+        else if (strcmp(fct, "dneupd") ==0)
         {
             std::cout << "eigs::error_string (dneupd): ";
             switch (err)

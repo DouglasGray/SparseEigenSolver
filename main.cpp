@@ -28,7 +28,7 @@ int main()
     for (int i=0; i < n; i++)
         for (int j=0; j < n; j++)
         {
-            r = std::rand() % 10 + 1;
+            r = rand() % 10 + 1;
             if (r <= 2)
                 A[i][j] = i + j + r;
         }

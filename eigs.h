@@ -1,7 +1,7 @@
 #ifndef SparseEigenSolver_eigs_h
 #define SparseEigenSolver_eigs_h
 
-#include <string>
+#include <cstring>
 
 /*-- Class declaration --*/
 
